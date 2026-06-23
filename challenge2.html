@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I Love NY</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .shirt-container {
+            position: relative;
+            display: inline-block;
+            background-color: lightyellow;
+            margin: 20px;
+        }
+
+        img {
+            position: relative;
+            left: 10px;
+            border: 5px solid black;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+        }
+        
+        .logo {
+            position: absolute;
+            top: calc(10px + 5px + 10px + 108px);
+            left: calc(10px + 10px + 5px + 10px + 155px);
+            transform: translate(-50%, -50%);
+            width: 88px;
+            height: 112px;
+            z-index: 1;
+        }
+
+        .words {
+            font-family: impact;
+            font-size: 60px;
+        }
+
+        .first {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .heart {
+            color: red;
+            font-size: 80px;
+            position: absolute;
+            top: -12px;
+            left: 24px;
+            z-index: 1;
+        }
+
+        .last {
+            position: absolute;
+            top: 54px;
+            left: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="shirt-container">
+        <div class="logo">
+            <span class="first words">I</span>
+            <span class="heart">♥</span>
+            <span class="last words">NY</span>
+        </div>
+        <div>
+            <img src="tshirt.jpg" alt="White t-shirt">
+        </div>
+    </div>
+</body>
+</html>
