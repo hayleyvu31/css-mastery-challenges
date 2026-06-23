@@ -1,0 +1,4 @@
+Name: Hayley Vu
+Challenge 1 Live URL: https://codd.cs.gsu.edu/~tvu53/wp/inc/inclass3/challenge1.html
+Challenge 2 Live URL: https://codd.cs.gsu.edu/~tvu53/wp/inc/inclass3/challenge2.html
+GitHub: https://github.com/hayleyvu31/css-mastery-challenges
